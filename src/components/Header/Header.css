@@ -1,0 +1,46 @@
+.header{
+    background-color: rgba(255, 255, 255, 1);
+}
+.searchInput{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    border: 2px solid rgba(240, 242, 244, 1);
+}
+.searchBtn, .sunBtn, .switchBtn, .menuBtn, .responsiveSearchBtn{
+    background-color: rgba(230, 85, 39, 0.1);
+    color: rgba(229, 85, 39, 1);
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin-top: 4px;
+    margin-left: -35px;
+    border: 2px solid rgba(230, 85, 39, 0.1);
+    padding: 4px;
+    cursor: pointer;
+}
+.searchIcon, .sunIcon, .switchIcon, .menuIcon, .responsiveSearchIcon{
+    width: 13px;
+    height: 13px;
+    color: rgba(229, 85, 39, 1);
+    margin: 0 auto;
+    text-align: center;
+}
+.sunIcon, .switchIcon, .menuIcon{
+    margin-top: 5px;
+}
+.switchIcon, .menuIcon{
+    color: rgba(16, 16, 16, 1); 
+}
+
+/* responsive Search Btn  */
+.responsiveSearchBtn{
+    width: 34px;
+    height: 34px;
+    margin-top: 1px;
+    margin-left: -34px;
+}
+/* responsive Search Icon  */
+.responsiveSearchIcon{
+    
+}
