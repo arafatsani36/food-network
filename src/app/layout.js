@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header></Header>
         <div className='md:flex'>
-          <div className='w-[6%] hidden md:block'>
+          <div className='md:w-[6%] '>
            <SideNav></SideNav>
           </div>
-          <div className='w-[94%]'>
+          <div className='md:w-[94%] lg:w-[94%]'>
             {children}
           </div>
         </div>
