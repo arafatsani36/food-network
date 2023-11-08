@@ -49,8 +49,7 @@ const MainBar = () => {
 
 
            {/* responsive start */}
-           <div className={`px-[15px] pt-[12px] mainBar-container mt-[12px] ml-[14.76px] mr-[16px] block md:hidden absolute z-[5] duration-500 ease-in-out ${open ? 'left-[-15px] top-[42px]' : 'left-[-500px] top-[42px]'}`}>
-
+           <div className={`px-[15px] pt-[12px] mainBar-container mt-[12px] ml-[14.76px] mr-[16px] block md:hidden absolute z-[5] duration-500 ease-in-out ${open ? 'left-[-15px] top-[-10px]' : 'left-[-500px] top-[-10px]'}`}>
            <div className='g-[15px] flex w-[270px] h-[45px] items-center justify-center rounded-[10px] mx-[4px] my-[4px] g-[10px] mainBar'>
                     <div className='w-[126px] h-[37px] fruits'>
                         <h2 className='text-center'>Fruits</h2>
