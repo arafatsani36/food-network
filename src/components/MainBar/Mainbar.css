@@ -1,0 +1,43 @@
+.mainBar-container{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    height: 830px;
+}
+.mainBar{
+    border: 2px solid rgba(230, 85, 39, 0.15);
+}
+.fruits{
+    background-color: rgba(230, 85, 39, 0.1);
+    color: rgba(229, 85, 39, 1);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.fruits h2, .vegetables h2{
+    margin-top: 6px;
+}
+.vegetables{
+    margin-right: 4px;
+}
+.vegetables:hover{
+    background-color: rgba(230, 85, 39, 0.1);
+    color: rgba(229, 85, 39, 1);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+/* searchBar  */
+
+.mainBarSearchInput{
+  font-size: 12px;
+  line-height: 14.52px;
+  border: 2px solid rgba(240, 242, 244, 1);
+  position: relative;
+}
+.mainBarSearchInput::placeholder{
+    color: rgba(16, 16, 16, 0.5);
+}
+.mainSearchBtn{
+    background-color: rgba(230, 85, 39, 0.1);
+    border-radius: 5px;
+}

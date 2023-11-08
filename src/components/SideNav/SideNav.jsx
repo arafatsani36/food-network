@@ -5,10 +5,10 @@ import { RxDashboard } from "react-icons/rx";
 import { PiDotsNineBold, PiTelegramLogoDuotone} from "react-icons/pi";
 const SideNav = () => {
     return (
-        <div>
+        <div className='sideNav-container'>
 
          {/* Desktop SideNav start  */}
-           <div className='hidden md:block lg:block '>
+           <div className='hidden md:block lg:block'>
             <div className="SideNav h-[100vh] flex flex-col justify-center items-center cursor-pointer">
                     <div className='SideNavItem w-[36px] h-[36px] my-2 duration-300 flex items-center'>
                         <BiHomeSmile className='SideNavIcon w-[22px] h-[22px] text-center mx-auto'></BiHomeSmile>
