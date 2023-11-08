@@ -31,7 +31,7 @@ const SideNav = () => {
 
 
         {/* responsive SideNav start*/}
-            <div className="block md:hidden fixed bottom-0 w-[100%] ">
+            <div className="block md:hidden fixed bottom-0 w-[100%] z-10">
                 <div className='SideNav flex w-[100%] justify-around items-center'>
                     <div className='SideNavItem w-[36px] h-[36px] my-2 duration-300 flex items-center'>
                         <BiHomeSmile className='SideNavIcon w-[22px] h-[22px] text-center mx-auto'></BiHomeSmile>

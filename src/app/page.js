@@ -6,7 +6,7 @@ const page = () => {
       <div className="w-[23.3%]">
         <MainBar></MainBar>
       </div>
-      <div className="w-[60%]">
+      <div className="md:w-[60%] w-[100%]">
         containte
       </div>
       <div className="w-[15%]">

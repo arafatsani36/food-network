@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header/Header'
 import SideNav from '@/components/SideNav/SideNav'
+import ResponsiveMainBar from '@/provider/ResponsiveMainBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,16 +15,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header></Header>
-        <div className='md:flex'>
-          <div className='md:w-[6%] '>
-           <SideNav></SideNav>
+        <ResponsiveMainBar>
+          <Header></Header>
+          <div className='md:flex'>
+            <div className='md:w-[6%] '>
+            <SideNav></SideNav>
+            </div>
+            <div className='md:w-[94%] lg:w-[94%]'>
+              {children}
+            </div>
           </div>
-          <div className='md:w-[94%] lg:w-[94%]'>
-            {children}
-          </div>
-        </div>
-        
+        </ResponsiveMainBar>
       </body>
     </html>
   )
