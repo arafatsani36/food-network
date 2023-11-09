@@ -14,8 +14,8 @@ const Header = () => {
     const {open, setOpen} = useContext(MainBarContext)
     return (
         <div className='header'>
-            <div className="flex items-center justify-between py-[10px] pr-[15px] pl-[26px]">
-            <Image className="w-[71px] h-[36px]" src={logo} alt=""></Image>
+            <div className="flex items-center justify-between py-[10px] pr-[15px] pl-[20px] md:pl-[26px]">
+            <Image className="w-[60px] h-[30px] md:w-[71px] md:h-[36px]" src={logo} alt=""></Image>
 
                 {/* search bar start */}
                 <div className='hidden lg:block'>
@@ -25,9 +25,9 @@ const Header = () => {
                 {/* search bar end */}
 
                 {/* responsive search bar start */}
-                <div className=' lg:hidden sm:block md:block sm:ml-10'>
-                <input className='peer cursor-pointer placeholder-black relative z-10 h-4 w-[4px] rounded-full bg-transparent outline-none focus:w-full focus:cursor-text p-4 responsiveSearchBarInput' type="search" name="" id="" placeholder="Search Best Food"/>
-                    <button className='absolute responsiveSearchBtn z-12'><BiSearch className='responsiveSearchIcon'></BiSearch></button>
+                <div className=' lg:hidden sm:block md:block ml-[-30px]'>
+                <input className='peer cursor-pointer placeholder-black relative z-10 h-4 w-4 rounded-full bg-transparent outline-none focus:w-full focus:cursor-text p-4 responsiveSearchBarInput' type="search" name="" id="" placeholder="Search Best Food"/>
+                <button className='absolute responsiveSearchBtn z-12'><BiSearch className='responsiveSearchIcon'></BiSearch></button>
                 </div>
                 {/* responsive search bar end */}
 
