@@ -41,18 +41,20 @@ const RightBar = () => {
 
                 <div>
                     
-                        <h4 className='text-[14px] font-[500] leading-[16.94px]'>Choose Vitamin Type</h4>
-                        <select className="select selectInput select-bordered w-full max-w-xs mt-[10px] py-[10px] pl-[15px] pr-[15px] rounded-[9px]">
-                        <option disabled selected>All Vitamin</option>
-                        <option>Normal Apple</option>
-                        <option>Normal Orange</option>
-                        <option>Normal Tomato</option>
-                        </select>
+                    <h4 className='text-[14px] font-[500] leading-[16.94px]'>Choose Vitamin Type</h4>
+                    <select className="select selectInput select-bordered w-full max-w-xs mt-[10px] py-[10px] pl-[15px] pr-[15px] rounded-[9px]">
+                    <option disabled selected>All Vitamin</option>
+                    <option>Vitamin C</option>
+                    <option>Vitamin B6</option>
+                    <option>Vitamin A, C</option>
+                    <option>Vitamin C, K</option>
+                    </select>
                     
 
-                    <div className='flex mt-[25px] justify-between'>
+                    <div className='flex mt-[25px] justify-between'>   
                         <h5 className='text-[14px] font-[500] leading-[16.94px]'>Turn Off Subtitle</h5>
-                        <input type="checkbox" className="toggle" checked />
+                        
+                        <input type="checkbox" name="" id="" className="toggle"/>
                     </div>
                 </div>
             </div>

@@ -49,3 +49,12 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+
+
+/* responsive style */
+
+/* responsive searchBar*/
+.responsiveMainSearchBtn{
+    background-color: rgba(230, 85, 39, 0.1)
+}

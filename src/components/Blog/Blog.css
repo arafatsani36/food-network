@@ -10,3 +10,6 @@
 .food-item{
     border-bottom: 9px slid rgba(238, 240, 242, 1);
 }
+.responsiveFood-item{
+    background-color: rgba(255, 255, 255, 1)
+}
