@@ -1,0 +1,21 @@
+
+.rightBar{
+   background-color: rgba(255, 255, 255, 1);
+   border-radius: 10px;
+}
+.SettingsContent{
+    border: 1.5px solid rgba(16, 16, 16, 0.1);
+    border-radius: 10px;
+}
+.selectInput{
+    background-color: rgba(16, 16, 16, 0.1);
+    border: 1.5ps solid rgba(16, 16, 16, 0.1);
+}
+.sliderValue{
+    color:rgba(229, 85, 39, 1)
+}
+.rangeInput{
+    accent-color: rgba(229, 85, 39, 1);
+    height: 5px;
+    margin-bottom: 20px;
+}

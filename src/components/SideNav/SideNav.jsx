@@ -5,7 +5,7 @@ import { RxDashboard } from "react-icons/rx";
 import { PiDotsNineBold, PiTelegramLogoDuotone} from "react-icons/pi";
 const SideNav = () => {
     return (
-        <div className='sideNav-container'>
+        <div className='sideNav-container h-[100%]'>
 
          {/* Desktop SideNav start  */}
            <div className='hidden md:block lg:block'>
