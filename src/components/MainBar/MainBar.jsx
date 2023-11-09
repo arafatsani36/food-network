@@ -61,7 +61,7 @@ const MainBar = () => {
 
             {/* search bar start */}
             <div className='py-[4px] pl-[4px] pr-[15px] relative mainBarSearch'>
-                    <input className='w-[270px] h-[34px] mainBarSearchInput placeholder-black py-[0px] pr-[0px] pl-[0px] rounded-[9px] focus:outline-none' type="search" name="" id="" placeholder="Search Best Food"/>
+                    <input className='w-[270px] h-[34px] mainBarSearchInput  placeholder-black py-[0px] pr-[0px] pl-[0px] rounded-[9px] focus:outline-none' type="search" name="" id="" placeholder="Search Best Food"/>
                     <button className='responsiveMainSearchBtn absolute right-0 top-0 mt-[8px] w-[35.21px] h-[26px] mr-[20px]'><BiSearch className='responsiveSearchIcon mx-[0px] my-[0px]'></BiSearch></button>
             </div>
                 {/* search bar end */}

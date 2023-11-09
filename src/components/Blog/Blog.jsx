@@ -84,7 +84,7 @@ const Blog = () => {
             <div className="Blog mt-[12px] rounded-[10px] md:blog">
             <div className='flex'>
                 {/* content start*/}
-                    <div className="py-[9px] px-[13px] h-[2400px]">
+                    <div className="py-[9px] px-[13px] h-[2470px]">
                         <div className='flex items-center justify-between responsiveFood-item py-[10px] px-[15px] rounded-[8px]'>
                             <div className='flex'>
                                 <Image className='mr-[10px]' src={icon} alt='' width={20} height={20}></Image>

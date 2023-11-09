@@ -26,7 +26,7 @@ const Header = () => {
 
                 {/* responsive search bar start */}
                 <div className=' lg:hidden sm:block md:block sm:ml-10'>
-                    <input className='peer cursor-pointer placeholder-black relative z-10 h-4 w-5 rounded-full bg-transparent outline-none focus:w-full focus:cursor-text p-4 searchInput' type="search" name="" id="" placeholder="Search Best Food"/>
+                    <input className='peer cursor-pointer placeholder-black relative z-10 h-4 w-4 rounded-full bg-transparent outline-none focus:w-full focus:cursor-text p-4' type="search" name="" id="" placeholder="Search Best Food"/>
                     <button className='absolute responsiveSearchBtn'><BiSearch className='responsiveSearchIcon'></BiSearch></button>
                 </div>
                 {/* responsive search bar end */}
