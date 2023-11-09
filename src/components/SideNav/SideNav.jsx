@@ -11,19 +11,19 @@ const SideNav = () => {
          {/* Desktop SideNav start  */}
            <div className='hidden md:block lg:block'>
             <div className="SideNav h-[100vh] flex flex-col justify-center items-center cursor-pointer">
-                    <div className='SideNavItem w-[36px] h-[36px] my-2 duration-300 flex items-center'>
+                    <div className='SideNavItem w-[36px] h-[36px] my-2 duration-300 flex items-center justify-center'>
                        <Link href='/'><BiHomeSmile className='SideNavIcon w-[22px] h-[22px] text-center mx-auto'></BiHomeSmile></Link>
                     </div>
-                    <div className='SideNavItem w-[36px] h-[36px] cursor-pointer my-2 duration-300 flex items-center'>
+                    <div className='SideNavItem w-[36px] h-[36px] cursor-pointer my-2 duration-300 flex items-center justify-center'>
                        <Link href='/dashboard'><RxDashboard className='SideNavIcon w-[22px] h-[22px] text-center mx-auto'></RxDashboard></Link>
                     </div>
-                    <div className='SideNavItem w-[36px] h-[36px] cursor-pointer my-2 duration-300 flex items-center'>
+                    <div className='SideNavItem w-[36px] h-[36px] cursor-pointer my-2 duration-300 flex items-center justify-center'>
                        <Link href='/telegram'><PiTelegramLogoDuotone className='SideNavIcon w-[22px] h-[22px] text-center mx-auto'></PiTelegramLogoDuotone></Link>
                     </div>
-                    <div className='SideNavItem w-[36px] h-[36px] cursor-pointer my-2 duration-300 flex items-center'>
+                    <div className='SideNavItem w-[36px] h-[36px] cursor-pointer my-2 duration-300 flex items-center justify-center'>
                        <Link href='/videos'><BiSolidVideos className='SideNavIcon w-[22px] h-[22px] text-center mx-auto'></BiSolidVideos></Link>
                     </div>
-                    <div className='SideNavItem w-[36px] h-[36px] cursor-pointer my-2 duration-300 flex items-center'>
+                    <div className='SideNavItem w-[36px] h-[36px] cursor-pointer my-2 duration-300 flex items-center justify-center'>
                         <Link href='/more'><PiDotsNineBold className='SideNavIcon w-[22px] h-[22px] text-center mx-auto'></PiDotsNineBold></Link> 
                     </div>
                 </div>
